@@ -21,7 +21,11 @@ module.exports = {
     path: path.resolve(__dirname, "dist")
   },
   devServer: {
-    contentBase: path.resolve(__dirname, "dist"),
-    compress: true
-  }
+    static: {
+      directory: path.join(__dirname, 'dist'),
+    },
+    compress: true,
+    hot: "only",
+    port: 9000,
+  },
 };

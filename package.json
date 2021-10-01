@@ -1,7 +1,7 @@
 {
-  "name": "hello-world",
-  "version": "1.0.0",
-  "description": "",
+  "name": "phaser-webpack-typescript",
+  "version": "1.1.0",
+  "description": "Boilerplate project to use phaser with webpack",
   "main": "greeter.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,16 +9,17 @@
     "build:dev": "NODE_ENV=develop npm run build",
     "build:production": "NODE_ENV=production npm run build",
     "build:watch": "npm run build --watch",
-    "server": "webpack-dev-server",
+    "serve": "webpack serve",
     "start": "npm run server"
   },
-  "author": "",
+  "author": "Henrique Clementino",
   "license": "ISC",
   "devDependencies": {
+    "@webpack-cli/serve": "^1.5.2",
     "ts-loader": "^6.2.2",
     "typescript": "^3.9.10",
     "webpack": "^5.55.1",
-    "webpack-cli": "^3.3.12",
+    "webpack-cli": "^4.8.0",
     "webpack-dev-server": "^4.3.0"
   },
   "dependencies": {
