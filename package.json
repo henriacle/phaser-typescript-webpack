@@ -10,17 +10,17 @@
     "build:production": "NODE_ENV=production npm run build",
     "build:watch": "npm run build --watch",
     "serve": "webpack serve",
-    "start": "npm run server"
+    "start": "npm run serve"
   },
   "author": "Henrique Clementino",
   "license": "ISC",
   "devDependencies": {
-    "@webpack-cli/serve": "^1.5.2",
-    "ts-loader": "^6.2.2",
-    "typescript": "^3.9.10",
-    "webpack": "^5.55.1",
-    "webpack-cli": "^4.8.0",
-    "webpack-dev-server": "^4.3.0"
+    "@webpack-cli/serve": "^1.6.1",
+    "ts-loader": "^9.3.0",
+    "typescript": "^4.7.2",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0"
   },
   "dependencies": {
     "phaser": "^3.55.2"
